@@ -1,0 +1,41 @@
+
+}
+body{
+    background-image: url('backgound_test.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
+#head{
+    color: blue;
+       font-size: clamp(28px, 5vw, 48px);
+       padding-bottom: 10px;
+       text-align: center;
+}
+.clic{
+    color: blue;
+    font-size: clamp(16px, 2vw, 20px);
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+h2 {
+    font-size: clamp(20px, 3.5vw, 32px);}
+    .links{font-weight: bold;}
+    div{
+        padding: 15px 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    }
+    .loginpageframe{
+        background-color: rgba(0, 0, 0, 0.7);    
+        color: white; 
+        padding: 40px; 
+        border-radius: 15px;
+        max-width: 500px; 
+        margin: 50px auto; 
+        text-align: center; 
+        backdrop-filter: blur(4px); 
+    }
